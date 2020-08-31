@@ -11,7 +11,7 @@ Unfortunately we do not have any course forum / discussion board set up, but you
 
 ## Course agenda
 ### Week 1
->**Topic:** Infro to IaaC; Ansible basics 
+>**Topic:** Infro to IaaC, Ansible basics 
 >**Lab 1:** GitHub repo setup, VM access, first playbook
 
 ### Week 2-15
