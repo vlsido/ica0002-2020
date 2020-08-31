@@ -1,13 +1,6 @@
 # IT Infrastructure Services 2020 Course
 
-Main page with supporting information about the course.
-
-
-## Teacher contacts
-
-Email: roman.kuchin@itcollege.ee
-
-For public discussions/questions please use [GitHub issues](https://github.com/romankuchin/ica0002-2020/issues).
+Course rules: [rules.md](rules.md).
 
 
 ## Course agenda
@@ -51,3 +44,10 @@ Lab 1: Setup.
 First exam attempt (optional).
 
 More exam times will be available on session weeks.
+
+
+## Teacher contacts
+
+Email: roman.kuchin@itcollege.ee
+
+For public discussions/questions please use [GitHub issues](https://github.com/romankuchin/ica0002-2020/issues).
