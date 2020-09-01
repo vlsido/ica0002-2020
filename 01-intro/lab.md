@@ -105,7 +105,7 @@ Step 2: Create *ansible.cfg*. You can just copy the contents from 01-demo/ansibl
 
 Step 3: Create Ansible role. You can just copy the contents from `01-demo/roles/test_connection/main.yaml`.
 
-Note: Folder structure and names matters. Same as name of file: *main.yaml*
+Note: Folder structure and names matter. Same as name of file: `main.yaml`.
 
 Step 4: Create Ansible playbook. You can just copy the contents from `01-demo/test_ansible.yaml`.
 
