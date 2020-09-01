@@ -89,7 +89,7 @@ Logout and log in again. Now this command should also work:
 ## Task 4: Access your virtual machine
 First, make sure that your Git repository is set up correctly -- check
 [this list](http://193.40.156.86/students.html) for details.
-Then, run this command using correct port number:
+Then, run this command using correct port number from [this list](http://193.40.156.86/vms.html):
 
     ssh -p122 ubuntu@193.40.156.86
 
