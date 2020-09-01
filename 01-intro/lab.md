@@ -66,7 +66,7 @@ Ansible versions -- you're on your own with them.
 
 Note for Windows users: Ansible does not officially support running on Windows,
 neither do we support Windows as a workstation. Although we have nothing against
-you get Ansible running on Windows, we recommend to install Ubuntu 20.04 (Desktop
+you get Ansible running on Windows, we recommend to install Ubuntu (Desktop
 or Server) in VirtualBox, and run the Ansible from there -- it's simpler.
 
 For Linux or OS X, we recommend to use Python virtual env:
@@ -95,3 +95,18 @@ Then, run this command using correct port number from [this list](http://193.40.
 
 You should be able to access the virtual machine with your SSH key. If not,
 please ask the teachers for help.
+## Task 5: Create Ansible playbook
+Note: example of first playbook you can find [here](01-demo).
+
+Step 1: Create your inventory file (use 01-demo/hosts as example). Use [VM list](http://193.40.156.86/vms.html)
+to fill this file with your connection parameters.
+
+Step 2: Create *ansible.cfg*. You can just copy the contents from 01-demo/ansible.cfg.
+
+Step 3: Create Ansible role. You can just copy the contents from 01-demo/roles/test_connection/main.yaml.
+
+Note: Folder structure and names matters. Same as name of file: *main.yaml*
+
+Step 4: Create Ansible playbook. You can just copy the contents from 01-demo/test_ansible.yaml.
+
+Step 5: Run Ansible playbook: `ansible-playbook test_ansible.yaml`. You should see only "ok" messages.
