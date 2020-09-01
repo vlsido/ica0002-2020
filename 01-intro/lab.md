@@ -101,7 +101,7 @@ Note: example of first playbook you can find [here](01-demo).
 Step 1: Create your inventory file (use `01-demo/hosts` as example). Use [VM list](http://193.40.156.86/vms.html)
 to fill this file with your connection parameters.
 
-Step 2: Create `ansible.cfg`. You can just copy the contents from 01-demo/ansible.cfg.
+Step 2: Create `ansible.cfg`. You can just copy the contents from `01-demo/ansible.cfg`.
 
 Step 3: Create Ansible role. You can just copy the contents from `01-demo/roles/test_connection/main.yaml`.
 
