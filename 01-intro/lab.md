@@ -107,6 +107,6 @@ Step 3: Create Ansible role. You can just copy the contents from 01-demo/roles/t
 
 Note: Folder structure and names matters. Same as name of file: *main.yaml*
 
-Step 4: Create Ansible playbook. You can just copy the contents from 01-demo/test_ansible.yaml.
+Step 4: Create Ansible playbook. You can just copy the contents from `01-demo/test_ansible.yaml`.
 
 Step 5: Run Ansible playbook: `ansible-playbook test_ansible.yaml`. You should see only "ok" messages.
