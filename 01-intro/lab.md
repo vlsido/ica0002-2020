@@ -59,23 +59,32 @@ it automatically within 2..3 minutes. You can see the result
 Note: You don't have to wait until your key is added to this list, you can
 continue with the next task.
 ## Task 3: Install Ansible
-Note: we will use Ansible version 2.9 for this course. Teachers will have this
-version installed and use it to check your tasks. Your code is considered
+Note: we will use Ansible version 2.9 for this course.
+Teachers will have this version installed and use it to check your tasks. Your code is considered
 working only if it executes successfully on Ansible 2.9. If you're using other
 Ansible versions -- you're on your own with them.
+
 Note for Windows users: Ansible does not officially support running on Windows,
 neither do we support Windows as a workstation. Although we have nothing against
 you get Ansible running on Windows, we recommend to install Ubuntu 20.04 (Desktop
 or Server) in VirtualBox, and run the Ansible from there -- it's simpler.
+
 For Linux or OS X, we recommend to use Python virtual env:
+
     python3 -m venv ~/ansible-venv
     ~/ansible-venv/bin/pip install ansible==2.9
     ~/ansible-venv/bin/ansible --version
+
 Last command should print something like
+
     ansible 2.9.0
+
 Then, add this line to your `~/.profile` file so you can use 'shorter' commands:
+
     PATH="$HOME/ansible-venv/bin:$PATH"
+
 Logout and log in again. Now this command should also work:
+
     ansible --version
 ## Task 4: Access your virtual machine
 First, make sure that your Git repository is set up correctly -- check
@@ -86,13 +95,3 @@ Then, run this command using correct port number:
 
 You should be able to access the virtual machine with your SSH key. If not,
 please ask the teachers for help.
-## Task 5: Test your Ansible installation
-Run this command:
-
-    ansible -i <inventory_file> my_vm -m ping -u ubuntu
-
-Content **example** of <inventory_file>:
-
-    my_vm ansible_host=193.40.156 ansible_port=122
-    
-You should see **SUCCESS** message.
