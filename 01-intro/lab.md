@@ -103,7 +103,7 @@ to fill this file with your connection parameters.
 
 Step 2: Create *ansible.cfg*. You can just copy the contents from 01-demo/ansible.cfg.
 
-Step 3: Create Ansible role. You can just copy the contents from 01-demo/roles/test_connection/main.yaml.
+Step 3: Create Ansible role. You can just copy the contents from `01-demo/roles/test_connection/main.yaml`.
 
 Note: Folder structure and names matters. Same as name of file: *main.yaml*
 
