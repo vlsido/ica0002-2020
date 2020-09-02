@@ -27,6 +27,7 @@ You can run Ansible from your laptop directly in case you have Linux or MacOS.
 In case you have Windows, we recommend to use
 [VirtualBox](https://www.virtualbox.org/wiki/Downloads) running Ubuntu as guest VM.
 
+
 ## Task 1: Set up your Git repository
 
 If you have a GitHub account already, skip this step. Otherwise
@@ -50,7 +51,10 @@ minutes. If it does not, please ask the teachers for help.
 Note: You don't have to wait until your repository is added to this list, you
 can continue with the next task.
 
+
 ## Task 2: Set up SSH keys
+
+**(on a Control node -- same machine you'll be running Ansible from)**
 
 If you have an SSH  keypair already you can reuse it for this course. You can
 check for existing SSH keys on your machine by running
@@ -76,10 +80,13 @@ it automatically within 2..3 minutes. You can see the result
 Note: You don't have to wait until your key is added to this list, you can
 continue with the next task.
 
+
 ## Task 3: Install Ansible
 
-Note: we will use Ansible version 2.9 for this course.
-Teachers will have this version installed and use it to check your tasks. Your code is considered
+**(on a Control node -- same machine where your SSH keys reside)**
+
+Note: we will use Ansible version 2.9 for this course. Teachers will have this
+version installed and use it to check your tasks. Your code is considered
 working only if it executes successfully on Ansible 2.9. If you're using other
 Ansible versions -- you're on your own with them.
 
@@ -98,7 +105,8 @@ Last command should print something like
 
     ansible 2.9.0
 
-Then, add this line to your `~/.profile` file so you can use 'shorter' commands:
+Then, add this line to your `~/.profile` file (if the file is missing, create it)
+so you can use 'shorter' commands:
 
     PATH="$HOME/ansible-venv/bin:$PATH"
 
@@ -106,29 +114,75 @@ Logout and log in again. Now this command should also work:
 
     ansible --version
 
-## Task 4: Access your virtual machine
+
+## Task 4: Test access to your virtual machine
 
 First, make sure that your Git repository is set up correctly -- check
 [this list](http://193.40.156.86/students.html) for details.
 
-Then, run this command using correct port number from [this list](http://193.40.156.86/vms.html):
+Then, make sure that your virtual machine is set up -- SSH access details should
+be printed [here](http://193.40.156.86/vms.html). Note the SSH port number!
 
-    ssh -p122 ubuntu@193.40.156.86
+Finally, test that SSH access works -- run this command on the **control node**
+(replace the `122` with the port number from the list above):
 
-You should be able to access the virtual machine with your SSH key. If not,
+    ssh -p122 ubuntu@193.40.156.86 uptime
+
+The command above should print the virtual machine uptime (a few minutes, maybe
+hours). This means that you can access your virtual machine via SSH.
+
+If you cannot access the virtual machine or it's stuck in 'Creating' state,
 please ask the teachers for help.
+
+
 ## Task 5: Create Ansible playbook
-Note: example of first playbook you can find [here](01-demo).
 
-Step 1: Create your inventory file (use `01-demo/hosts` as example). Use [VM list](http://193.40.156.86/vms.html)
-to fill this file with your connection parameters.
+**(on a Control node -- same machine you'll be running Ansible from)**
 
-Step 2: Create `ansible.cfg`. You can just copy the contents from `01-demo/ansible.cfg`.
+Example of first playbook you can find [here](01-demo).
 
-Step 3: Create Ansible role. You can just copy the contents from `01-demo/roles/test_connection/main.yaml`.
+Step 1: Create a working directory named `ica0002` (same as your GitHub
+repository name).
 
-Note: Folder structure and names matter. Same as name of file: `main.yaml`.
+Step 2: In that directory, create files named `ansible.cfg`, `hosts`,
+`roles/test_connection/main.yaml` and `test_ansible.yaml` -- you can just copy
+the contents of `01-demo` directory from the link above.
 
-Step 4: Create Ansible playbook. You can just copy the contents from `01-demo/test_ansible.yaml`.
+Note: directory structure and file names matter! Create the files and
+directories named exactly as requested.
 
-Step 5: Run Ansible playbook: `ansible-playbook test_ansible.yaml`. You should see only "ok" messages.
+Step 3: Update your inventory file named `hosts` -- use
+[VM list](http://193.40.156.86/vms.html) to find the correct connection
+parameters.
+
+Step 4: Run the Ansible playbook:
+
+    ansible-playbook test_ansible.yaml
+
+You should see only green "ok" messages.
+
+
+## Task 6: Commit and your work to GitHub
+
+Once all the previous tasks are done make sure the files you've created in the
+Task 5 are pushed to GitHub.
+
+Run this commands in the working directory (`ica0002` created in the Task 5) to
+initialize the Git repository:
+
+    git init
+    git remote add origin <your-repository-url>
+
+Exact commands can be found in GitHub, on your repository page.
+
+Then, run these commands to commit your changes:
+
+    git add .
+    git commit -m 'Lab 1'
+
+
+Finally, run this command to push your changes to GitHub:
+
+    git push origin master
+
+Once done, your files should appear in your GitHub repository.
