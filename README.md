@@ -2,6 +2,7 @@
 
 Course rules: [rules.md](rules.md).
 
+Video lectures: [link](https://echo360.org.uk/section/d36fa51a-ee53-42cd-885e-11a2d2fd0638/public).
 
 ## Course agenda
 
