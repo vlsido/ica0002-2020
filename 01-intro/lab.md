@@ -185,4 +185,9 @@ Finally, run this command to push your changes to GitHub:
 
     git push origin master
 
-Once done, your files should appear in your GitHub repository.
+Once done, the following files should appear in the root of your GitHub
+repository:
+ - `ansible.cfg`
+ - `hosts`
+ - `roles/test_connection/tasks/main.yaml`
+ - `test_ansible.yaml
