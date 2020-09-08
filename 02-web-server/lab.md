@@ -86,7 +86,7 @@ Your repository contains these files:
 Nginx is installed and configured on empty machine by running exactly this
 command exactly once:
 
-	ansible-playbook lab02_webserver.yaml
+	ansible-playbook lab02_web_server.yaml
 
 Users `juri` and `roman` can SSH to that machine using their SSH keys.
 
