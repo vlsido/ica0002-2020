@@ -5,6 +5,48 @@ Course rules: [rules.md](rules.md).
 Video lectures: [link](https://echo360.org.uk/section/d36fa51a-ee53-42cd-885e-11a2d2fd0638/public).
 
 
+## IMPORTANT: Course structure change
+
+We have changed course structure to follow the University restrictions
+related to COVID.
+
+Changes are marked in **bold**.
+
+### Tuesday lecture
+
+ - Happening at the same time, 17:15 local time
+ - Video will be recorded
+ - **Please do not come to class but watch the lecture video instead**
+
+### Tuesday lab
+
+ - Happening at the same time, 19:00 local time
+ - Video will be recorded
+ - **In class, task is presented and questions about 2 previous labs are answered**
+ - **Lab tasks should be completed at home**
+
+So, come to class **only** if you have some questions regarding previous 2 labs
+that cannot be solved via email or GitHub issues (implies that you tried).
+
+If you have questions about older labs (say, question about lab 1 on the week 4)
+please use email or GitHub issues. We won't handle these in class.
+
+### Wednesday lecture
+
+ - **Is not happening**
+ - **Video will not be recorded** -- please watch Tuesday lecture video instead
+
+### Wednesday lab
+
+ - **Is not happening**
+ - **Video will not be recorded** -- please watch Tuesday lab video instead
+
+These rules are efficient since Sep 8, 2020 and until next announcement.
+
+We are working to provide additional communication channel, it will be announced
+a bit later.
+
+
 ## Course agenda
 
 [Week 1: Intro](./01-intro)
