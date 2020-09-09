@@ -1,6 +1,8 @@
 Course rules
 ============
 
+**Note: updated by https://github.com/romankuchin/ica0002-2020#important-course-structure-change**
+
 1. Physical presence in classroom is **not required**. But still advised.
 
 2. If you decide to come to the classroom, **be there before the class starts**.
