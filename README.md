@@ -45,7 +45,7 @@ please use email or GitHub issues. We won't handle these in class.
 
 These rules are efficient since Sep 8, 2020 and until next announcement.
 
-During Wednesday class times teachers are online in (Discord)[https://discord.com/download]. (Invite link)[https://discord.gg/pyy2zN]
+During Wednesday class times teachers are online in [Discord](https://discord.com/download). [Invite link](https://discord.gg/pyy2zN)
 
 
 ## Course agenda
