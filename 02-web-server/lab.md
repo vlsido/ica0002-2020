@@ -72,7 +72,7 @@ Just the list of files and what happened to each of them, for example:
 	/path/to/bar/baz.txt changed
 	/path/to/xyzzy.tar.gz deleted
 
-Note: you don't need to parse the Ansible output automatically here. Just write does
+Note: you don't need to parse the Ansible output automatically here. Just write down
 the changed files.
 
 
