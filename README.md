@@ -35,16 +35,17 @@ please use email or GitHub issues. We won't handle these in class.
 
  - **Is not happening**
  - **Video will not be recorded** -- please watch Tuesday lecture video instead
+ - Teachers are online in Discord
 
 ### Wednesday lab
 
  - **Is not happening**
  - **Video will not be recorded** -- please watch Tuesday lab video instead
+ - Teachers are online in Discord
 
 These rules are efficient since Sep 8, 2020 and until next announcement.
 
-We are working to provide additional communication channel, it will be announced
-a bit later.
+During Wednesday class times teachers are online in (Discord)[https://discord.com/download]. (Invite link)[https://discord.gg/pyy2zN]
 
 
 ## Course agenda
