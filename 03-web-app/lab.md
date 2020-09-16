@@ -154,7 +154,7 @@ Hints:
    [AGAMA deployment instructions](https://github.com/hudolejev/agama#running)
    for the uWSGI configuration file example
  - Add uWSGI configuration file for AGAMA to
-   `/etc/agama/apps-enabled/agama.ini`. uWSGI on Debian/Ubuntu is pre-configured
+   `/etc/uwsgi/apps-enabled/agama.ini`. uWSGI on Debian/Ubuntu is pre-configured
    to pick configuration files automatically from this directory. Note that this
    is Debian/Ubuntu specific behavior brought to you by `uwsgi` package from the
    APT repository; default (upstream) uWSGI is configured differently.
