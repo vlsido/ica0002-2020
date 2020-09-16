@@ -115,7 +115,7 @@ application container server that will run our application.
 
 This role should:
  1. Install uWSGI packages; Ubuntu 18.04 packages that we'll need are named
-    `uwsgi` and `uwsgi-plugin-python`.
+    `uwsgi` and `uwsgi-plugin-python3`.
  2. Add the uWSGI configuration for AGAMA so that the application is run by user
     `agama`
  4. Ensure that uWSGI service is started (unconditionally) and enabled to start
