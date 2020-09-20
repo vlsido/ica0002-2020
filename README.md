@@ -49,41 +49,44 @@ a bit later.
 
 ## Course agenda
 
-[Week 1: Intro](./01-intro)
+[Week 1: Intro](./01-intro) --  Sep 1, Sep 2
  - Introduction to the course; IaaC; Ansible
  - Lab 1: Setup
 
-[Week 2: SSH, Web servers](./02-web-server)
+[Week 2: SSH, Web servers](./02-web-server) -- Sep 8
  - SSH basics; Web server basics; Nginx
  - Lab 2: Set up Nginx as simple web server
 
-Week 3: TBA
+[Week 3: Web applications](./03-web-app) -- Sep 15
+ - Dynamic web resources; web app deployment
+ - Lab 3: Deploy a simple web application
 
-Week 4: TBA
+[Week 4: Troubleshooting](./04-troubleshooting) -- Sep 22
+ - TBA
 
-Week 5: TBA
+Week 5: TBA -- Sep 29
 
-Week 6: TBA
+Week 6: TBA -- Oct 6
 
-Week 7: TBA
+Week 7: TBA -- Oct 13
 
-Week 8: TBA
+Week 8: TBA -- Oct 20
 
-Week 9: TBA
+Week 9: TBA -- Oct 27
 
-Week 10: TBA
+Week 10: TBA -- Nov 3
 
-Week 11: TBA
+Week 11: TBA -- Nov 10
 
-Week 12: TBA
+Week 12: TBA -- Nov 17
 
-Week 13: TBA
+Week 13: TBA -- Nov 24
 
-Week 14: TBA
+Week 14: TBA -- Dec 1
 
-Week 15: TBA
+Week 15: TBA -- Dec 8
 
-Week 16: Exam
+Week 16: Exam -- Dec 15
  - First exam attempt (optional)
  - More exam times will be available on session weeks
 
