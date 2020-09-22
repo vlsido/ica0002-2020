@@ -224,7 +224,7 @@ roles/nginx/tasks/main.yaml
 roles/uwsgi/tasks/main.yaml
 ```
 
-You repository also contains all the required files from the previous labs.
+Your repository also contains all the required files from the previous labs.
 
 AGAMA with uWSGI and Nginx can be installed and configured on empty machine by
 running exactly this command exactly once:
