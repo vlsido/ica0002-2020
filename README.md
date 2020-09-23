@@ -1,69 +1,60 @@
 # IT Infrastructure Services 2020 Course
 
-Course rules: [rules.md](rules.md).
+Course rules: [link](rules.md).
 
 Video lectures: [link](https://echo360.org.uk/section/d36fa51a-ee53-42cd-885e-11a2d2fd0638/public).
+
+[Discord](https://discord.com/download) channel invite: [link](https://discord.gg/pyy2zN).
 
 
 ## IMPORTANT: Course structure change
 
-We have changed course structure to follow the University restrictions
-related to COVID.
+We have changed the course structure to follow the university recommendations.
 
-Changes are marked in **bold**.
+The following info is for **both Tuesday and Wednesday groups**.
 
-### Tuesday lecture
+Class times:
 
- - Happening at the same time, 17:15 local time
- - Video will be recorded
- - **Please do not come to class but watch the lecture video instead**
+ - Tuesday 17:15 -- room 219 -- lecture -- video is recorded
+ - Tuesday 19:00 -- room 410 -- lab -- video is recorded
+ - Wednesday 16:00 -- room 221 -- lab
+ - Wednesday 17:45 -- room 319 -- lab
 
-### Tuesday lab
+**DO NOT COME TO CLASS IF YOU FEEL SICK! STAY AT HOME!**
 
- - Happening at the same time, 19:00 local time
- - Video will be recorded
- - **In class, task is presented and questions about 2 previous labs are answered**
- - **Lab tasks should be completed at home**
+This week lecture video is recorded on Tuesdays at 17:15. You can watch it live,
+or later any time that is convenient for you.
 
-So, come to class **only** if you have some questions regarding previous 2 labs
-that cannot be solved via email or GitHub issues (implies that you tried).
+Lab task is presented on Tuesdays at 19:00. You can watch it live, or later any
+time that is convenient for you.
 
-If you have questions about older labs (say, question about lab 1 on the week 4)
-please use email or GitHub issues. We won't handle these in class.
+There are 3 lab times available. You can choose any lab time you want, but it's
+not required to come to class at all -- you can complete the tasks at home.
 
-### Wednesday lecture
+On a lab class we answer questions about **previous 2 labs only**. If you have
+any questions about older labs (say, question about lab 1 on the week 4) please
+use email or GitHub issues. We won't handle these in class.
 
- - **Is not happening**
- - **Video will not be recorded** -- please watch Tuesday lecture video instead
- - Teachers are online in Discord
-
-### Wednesday lab
-
- - **Is not happening**
- - **Video will not be recorded** -- please watch Tuesday lab video instead
- - Teachers are online in Discord
-
-These rules are efficient since Sep 8, 2020 and until next announcement.
-
-During Wednesday class times teachers are online in [Discord](https://discord.com/download). [Invite link](https://discord.gg/pyy2zN)
+These rules are efficient since Sep 24, 2020 and until next announcement.
 
 
 ## Course agenda
 
 [Week 1: Intro](./01-intro) --  Sep 1, Sep 2
- - Introduction to the course; IaaC; Ansible
- - Lab 1: Setup
+ - Lecture: Introduction to the course; IaaC; Ansible
+ - Lab: Setup
 
 [Week 2: SSH, Web servers](./02-web-server) -- Sep 8
- - SSH basics; Web server basics; Nginx
- - Lab 2: Set up Nginx as simple web server
+ - Lecture: SSH basics; Web server basics; Nginx
+ - Lab: Ansible file structure; set up Nginx as simple web server
 
 [Week 3: Web applications](./03-web-app) -- Sep 15
- - Dynamic web resources; web app deployment
- - Lab 3: Deploy a simple web application
+ - Lecture: Dynamic web resources; web app deployment; Ansible handlers
+ - Lab: Deploy a simple web application
 
 [Week 4: Troubleshooting](./04-troubleshooting) -- Sep 22
- - TBA
+ - Lecture: Troubleshooting; Ansible variables; Ansible Vault
+ - Lab: MySQL server as a backend for web application
 
 Week 5: TBA -- Sep 29
 
