@@ -115,7 +115,7 @@ application container server that will run our application.
 
 This role should:
  1. Install uWSGI packages; Ubuntu 18.04 packages that we'll need are named
-    `uwsgi` and `uwsgi-plugin-python`.
+    `uwsgi` and `uwsgi-plugin-python3`.
  2. Add the uWSGI configuration for AGAMA so that the application is run by user
     `agama`
  4. Ensure that uWSGI service is started (unconditionally) and enabled to start
@@ -154,7 +154,7 @@ Hints:
    [AGAMA deployment instructions](https://github.com/hudolejev/agama#running)
    for the uWSGI configuration file example
  - Add uWSGI configuration file for AGAMA to
-   `/etc/agama/apps-enabled/agama.ini`. uWSGI on Debian/Ubuntu is pre-configured
+   `/etc/uwsgi/apps-enabled/agama.ini`. uWSGI on Debian/Ubuntu is pre-configured
    to pick configuration files automatically from this directory. Note that this
    is Debian/Ubuntu specific behavior brought to you by `uwsgi` package from the
    APT repository; default (upstream) uWSGI is configured differently.
@@ -202,7 +202,7 @@ re-create it (if missing) on the next request.
 Hints:
  - You can find Nginx configuration examples in the lecture slides and in the
    AGAMA deployment instructions (section 'Running').
- - Add Nginx configuration file for uWSGI to `/et/nginx/sites-enbled/default`.
+ - Add Nginx configuration file for uWSGI to `/etc/nginx/sites-enbled/default`.
    This file comes from the APT package -- you can safely overwrite it for our
    labs.
  - Nginx uWSGI module configuration reference can be found

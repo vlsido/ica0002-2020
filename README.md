@@ -35,7 +35,6 @@ On a lab class we answer questions about **previous 2 labs only**. If you have
 any questions about older labs (say, question about lab 1 on the week 4) please
 use email or GitHub issues. We won't handle these in class.
 
-
 These rules are efficient since Sep 24, 2020 and until next announcement.
 
 

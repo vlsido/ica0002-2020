@@ -358,7 +358,7 @@ Your repository also contains all the required files from the previous labs.
 Your repository **does not contain** Ansible Vault master password.
 
 Your deployment customizations: MySQL host, database name, user and password --
-are variables and are stored in `group_vars/all` file.
+are variables and are stored in `group_vars/all.yaml` file.
 
 Web application that uses MySQL backend, and the MySQL server itself are
 installed and configured, each on a separate machine, by running this command

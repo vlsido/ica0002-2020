@@ -190,4 +190,4 @@ repository:
  - `ansible.cfg`
  - `hosts`
  - `roles/test_connection/tasks/main.yaml`
- - `test_ansible.yaml
+ - `test_ansible.yaml`

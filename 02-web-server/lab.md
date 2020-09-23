@@ -62,13 +62,18 @@ host.
 
 ## Task 4
 
-List the **full paths** of the files that were added, deleted or changed on
-server during this playbook run, in the file named `lab02_changed_files.txt`.
+Check the Ansible output from the previous runs. Note the files that were changed
+on server: added, deleted, or updated.
+
+List the **full paths** of these files in the file named `lab02_changed_files.txt`.
 Just the list of files and what happened to each of them, for example:
 
 	/path/to/foo.txt added
 	/path/to/bar/baz.txt changed
 	/path/to/xyzzy.tar.gz deleted
+
+Note: you don't need to parse the Ansible output automatically here. Just write down
+the changed files.
 
 
 ## Expected result
@@ -86,7 +91,7 @@ Your repository contains these files:
 Nginx is installed and configured on empty machine by running exactly this
 command exactly once:
 
-	ansible-playbook lab02_webserver.yaml
+	ansible-playbook lab02_web_server.yaml
 
 Users `juri` and `roman` can SSH to that machine using their SSH keys.
 
