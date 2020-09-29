@@ -14,8 +14,8 @@ For startup name creation you can use:
 Create your domain name using some fancy root zone:
 1. .io
 2. .ttu
-3. .<yourname>
-4. .<anything>
+3. .{yourname}
+4. .{anything}
 
 Example of what you should get: *pythox.io* or *junglezilla.rk* (rk came from Roman Kuchin)
 
@@ -47,15 +47,15 @@ Default config file location: /etc/bind/named.conf.options
 
 ## Task 5: Configure master zone
 
-Expected file location on DNS server: /etc/bind/db.<startup_name>
+Expected file location on DNS server: /etc/bind/db.{startup_name}
 
 Structure of the file you can find in 05-demo or in /etc/bind/db.local on your vm.
 
 Check Bind9 docs page 10 to learn how to reference master zone from config file.
 
 Use variables to feed your master zone file:
-    {{ hostvars[<vm>]['ansible_default_ipv4']['address'] }}
-Where '<vm>' is your managed host name as defined in inventory file (for example, vm-2).
+    {{ hostvars[{vm}]['ansible_default_ipv4']['address'] }}
+Where '{vm}' is your managed host name as defined in inventory file (for example, vm-2).
 
 You can get these variables values by running Ansible module "setup" without parameters. [Docs](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/setup_module.html)
 
@@ -71,7 +71,7 @@ Example of playbook:
 	- name: DNS servers
 	  hosts: dns-server <- Play runs only on DNS server
 	  roles:
-	    - dns-server
+	    - dns_server
 
 ## Task 6: Update your VMs DNS settings
 
@@ -84,7 +84,7 @@ Example of /etc/resolv.conf file:
     nameserver 192.168.42.117
 
 Use variables to populate this files: 
-    {{ hostvars[<vm_with_bind9>]['ansible_default_ipv4']['address'] }}
+    {{ hostvars[{vm_with_bind9}]['ansible_default_ipv4']['address'] }}
 
 ## Hints:
 Don't forget to restart service after config changes. Use Ansible "service" module for that.
