@@ -1,0 +1,14 @@
+---
+- name: Setup
+  hosts: all
+  tasks:
+    - setup:
+
+- name: vm2
+  hosts: vm2
+  become: yes
+  gather_facts: no
+  tasks:
+    - template:
+        src: resolv.conf
+        dest: /etc/resolv.conf
