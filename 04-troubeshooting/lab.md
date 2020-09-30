@@ -242,9 +242,9 @@ On a first try Ansible may fail with an error saying
 
 > The PyMySQL (Python 2.7 and Python 3.X) or MySQL-python (Python 2.X) module is required.
 
-Ansible needs a Python library to connect to MySQL and make required changes.
-This library is called PyMySQL and can be installed as `python3-pymysql` package
-from the Ubuntu APT repository.
+Ansible needs a Python library on the managed host to connect to MySQL and make
+required changes. This library is called PyMySQL and can be installed as
+`python3-pymysql` package from the Ubuntu APT repository.
 
 Another error you may see is
 
