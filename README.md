@@ -56,7 +56,9 @@ These rules are efficient since Sep 24, 2020 and until next announcement.
  - Lecture: Troubleshooting; Ansible variables; Ansible Vault
  - Lab: MySQL server as a backend for web application
 
-Week 5: TBA -- Sep 29
+[Week 5: DNS](./05-dns-server) -- Sep 29
+ - Lecture: DNS server; Jinja2 templates
+ - Lab: Bind9 as a DNS server
 
 Week 6: TBA -- Oct 6
 
