@@ -69,9 +69,9 @@ Example of playbook:
         - setup:
 
 	- name: DNS servers
-	  hosts: dns-server <- Play runs only on DNS server
+	  hosts: dns_server <- Play runs only on DNS server
 	  roles:
-	    - dns_server
+	    - bind
 
 ## Task 6: Update your VMs DNS settings
 
@@ -94,3 +94,29 @@ Master zone file with DNS records is not a config file. After DB file update use
 Use "named-checkconf" to check syntax of your Bind9 configs. Use "named-checkzone" to check syntax of your zone files.
 
 Use online Jinja2 compiler to try your templates: https://j2live.ttl255.com/
+
+## Expected result
+
+Your repository contains these files and directories:
+
+	ansible.cfg
+	group_vars/all.yaml
+	hosts
+	lab05_dns.yaml
+	roles/bind/tasks/main.yaml
+
+Your repository also contains all the required files from the previous labs.
+
+Your repository **does not contain** Ansible Vault master password.
+
+DNS server is installed and configured on one of VMs and DNS settings on all VMs are set to use local DNS server with this command:
+
+	ansible-playbook lab05_dns.yaml
+
+Running the same command again does not make any changes to any of the managed
+hosts.
+
+After playbook execution these commands should work from both your VMs (not from Ansible host):
+
+	ping vm1.<your-startup-domain>
+	ping vm2.<your-startup-domain>
