@@ -69,9 +69,9 @@ Example of playbook:
         - setup:
 
 	- name: DNS servers
-	  hosts: dns-server <- Play runs only on DNS server
+	  hosts: dns_server <- Play runs only on DNS server
 	  roles:
-	    - dns_server
+	    - bind
 
 ## Task 6: Update your VMs DNS settings
 
