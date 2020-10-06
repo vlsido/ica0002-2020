@@ -25,7 +25,7 @@ Install Nginx and configure reverse proxy:
 
 VM with Prometheus should have at least 2 "proxy_pass" statements. VM with only Node Exporter should forward only /metrics.
 
-## Task 4: Adjust Prometheus service unit
+## Task 4: Adjust Prometheus service
 
 To make Prometheus reachable from outside, rut it with
 
