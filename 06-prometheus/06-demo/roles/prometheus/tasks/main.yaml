@@ -1,0 +1,4 @@
+---
+- name: Package
+  apt:
+    name: prometheus

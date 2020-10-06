@@ -1,4 +1,4 @@
-domain: xly.rk
+domain: yly.rk
 dns_forwarders:
   - 1.1.1.1
   - 9.9.9.9
