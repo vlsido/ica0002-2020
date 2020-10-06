@@ -1,0 +1,17 @@
+---
+  - name: Setup
+    hosts: all
+    tasks:
+      - setup:
+
+  - name: DNS
+    hosts: dns_servers
+    become: yes
+    roles:
+      - bind
+
+  - name: Resolvers
+    hosts: all
+    become: yes
+    roles:
+      - resolver
