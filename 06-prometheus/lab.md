@@ -31,7 +31,7 @@ To make Prometheus reachable from outside, rut it with
 
     --web.external-url=http://<your_public_http_endpoint>/prometheus
 
-Make proper changes to systemd service unit.
+Make proper changes to systemd service unit. "service prometheus status" will show you exact file location.
 
 Hind: after service config change you have to execute command:
 
