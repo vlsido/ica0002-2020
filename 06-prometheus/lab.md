@@ -43,11 +43,11 @@ Use Ansbile handler with shell or command module.
 
 Your repository contains these files and directories:
 
-	ansible.cfg
-	group_vars/all.yaml
-	hosts
-	lab06_prometheus.yaml
-	roles/bind/tasks/main.yaml
+    ansible.cfg
+    group_vars/all.yaml
+    hosts
+    lab06_prometheus.yaml
+    roles/bind/tasks/main.yaml
     roles/prometheus/tasks/main.yaml
 
 Your repository also contains all the required files from the previous labs.
