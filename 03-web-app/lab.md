@@ -202,7 +202,7 @@ re-create it (if missing) on the next request.
 Hints:
  - You can find Nginx configuration examples in the lecture slides and in the
    AGAMA deployment instructions (section 'Running').
- - Add Nginx configuration file for uWSGI to `/etc/nginx/sites-enbled/default`.
+ - Add Nginx configuration file for uWSGI to `/etc/nginx/sites-enabled/default`.
    This file comes from the APT package -- you can safely overwrite it for our
    labs.
  - Nginx uWSGI module configuration reference can be found
